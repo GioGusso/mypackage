@@ -3,7 +3,7 @@ class Studente:
         self.nome = nome
         self.cognome = cognome
         self.anno_iscrizione = anno_iscrizione
-        self.matricola = matricola
+        self.matricola = matricola;
 
     def __str__(self):
         return f"{self.nome} {self.cognome} - ({self.matricola})"
