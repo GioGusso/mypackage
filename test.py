@@ -12,7 +12,7 @@ class Studente:
 class Professore:
     def __init__(self, cognome, email):
         self.cognome = cognome
-        self.email = email
+        self.email = email #ciao
 
     def __str__(self):
         return f"{self.cognome} - email: {self.email}"
