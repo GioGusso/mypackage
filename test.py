@@ -3,7 +3,7 @@ class Studente:
         self.nome = nome
         self.cognome = cognome
         self.anno_iscrizione = anno_iscrizione
-        self.matricola = matricola;
+        self.matricola = matricola
 
     def __str__(self):
         return f"{self.nome} {self.cognome} - ({self.matricola})"
@@ -51,7 +51,7 @@ class Corso:
     def get_professore(self):
         return self.professore
 
-
+# Franco ciao!
 # Oggetti di esempio
 Giacomo = Studente("Giacomo", "Franchini", 2008, "GIAFRA2008X")
 Lorenza = Studente("Lorenza", "Boldi", 2012, "LORBOL2012B")
